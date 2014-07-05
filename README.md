@@ -79,7 +79,7 @@ Datasheets
 
 * [A7105](http://www.avantcom.com.tw/AVANTCOM/TC/DATA/PRODUCT/SOLVE/18_3.pdf)
 * [MPU-3050 datasheet](http://invensense.com/mems/gyro/documents/PS-MPU-3000A.pdf), [MPU-3050 register map](http://invensense.com/mems/gyro/documents/RM-MPU-3000A.pdf)
-* [MINI54ZAN datasheet](http://www.nuvoton.com/resource-files/DS_Mini51DE_Series_EN_Rev1.01.pdf), [MINI54ZAN TRM](http://www.nuvoton.com/resource-files/TRM_Mini51DE_Series_EN_Rev1.01.pdf)
+* [MINI54ZAN TRM](http://www.keil.com/dd/docs/datashts/nuvoton/mini51/da00-mini51_52_54c1.pdf)
 * MC3220 doesn't seem to officially exist, but as far as I can tell it's a [MC3210](http://www.mcubemems.com/wp-content/uploads/2014/06/MC3210-Datasheet-APS-048-0005v1.6.pdf) in a package pin-compatible with [Bosch BMA180](http://irtfweb.ifa.hawaii.edu/~tcs3/jumpman/jumppc/1107-BMA180/BMA180-DataSheet-v2.5.pdf)
 * [XC6206](http://www.torex.co.jp/english/products/voltage_regulators/data/XC6206.pdf)
 
