@@ -57,7 +57,7 @@ From left to right, we have:
 * the two blue LEDs which look like eyes, with the antenna between them
 * A7105 covered by the crystal in cylindrical package - replaced with an SMD crystal in later revisions
 * below the A7105 and slightly to the right: Invensense MPU-3050 3 axis gyroscope
-* middle, top, the largest package: Nuvoton MINI54ZAN MCU - marked HUBSAN HBS001 in later revisions (to be confirmed)
+* middle, top, the largest package: Nuvoton MINI54ZAN MCU - marked HUBSAN HBS001 in later revisions
 * below and slightly to the right of the MINI54 MCU: mCube MC3220 3 axis accelerometer - later replaced with MC3210 - it was a real PITA to identify
 * below and to the right of the M3220: Torex XC6206 3V LDO regulator
 * 4 identical devices aligned vertically and marked 122W: unknown N-Channel power MOSFETs
