@@ -41,11 +41,9 @@ Other sources of relevant documentation
 * [Deviation](http://www.deviationtx.com) TX firmware developers have reversed engineered the radio protocol [here](https://bitbucket.org/PhracturedBlue/deviation/src/3b623a8d08f5ba5184b1a1fdb545ad255c07ded5/doc/Hubsan.txt?at=default).
 
 
-Hardware
-========
+# Hardware
 
-Overview
---------
+## Drone
 
 Below is a picture of the H107 PCB top (left side of the picture is mounted at the front of the quad):
 
@@ -74,8 +72,8 @@ For comparison, below are an overview of the H107L PCB and a macro showing the I
 ![H107L PCB macro](https://raw.githubusercontent.com/lgeek/h107_rev/master/img/h107l/pcb_top_macro.jpg)
 
 
-Datasheets
-----------
+### Datasheets
+
 
 * [Amicom A7105](http://d1.amobbs.com/bbs_upload782111/files_37/ourdev_624976V4QBXF.pdf) Transceiver
 * [MPU-3050 datasheet](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-3050A-00-v2-7.pdf), [MPU-3050 register map](https://www.invensense.com/wp-content/uploads/2015/02/MPU-3050-Register-Map.pdf)
@@ -84,16 +82,14 @@ Datasheets
 * [XC6206](http://www.torex.co.jp/english/products/voltage_regulators/data/XC6206.pdf)
 
 
-Debugging connections
----------------------
+### Debugging connections
 
 The picture below shows the goodies on the bottom side of H107L: the D and C pins are SWDIO and SWCLK respectively! The pad marked R is reset. H107 includes the same pads in more or less the same position, although the rest of the bottom layout is slightly different.
 
 ![H107L PCB bottom](https://raw.githubusercontent.com/lgeek/h107_rev/master/img/h107l/pcb_bottom_overview.jpg)
 
 
-Pinouts and connections
------------------------
+### Pinouts and connections
 
 MINI54ZAN:
 
@@ -168,8 +164,14 @@ MINI54ZAN:
 The two LEDs on the PCB are connected in parallel with LED3 and LED4 respectively.
 
 
-Software
-========
+## Transmitter
+
+### H107D TX PCB
+![H107D TX PCB top](https://raw.githubusercontent.com/lgeek/h107_rev/master/img/h107d/tx_pcb_top.jpg)
+![H107D TX PCB bottom](https://raw.githubusercontent.com/lgeek/h107_rev/master/img/h107d/tx_pcb_bottom.jpg)
+
+
+# Software
 
 The MCU is read and write protected, so the firmware image can't be directly read out. Glitching - it's clocked by IRC :( - or a software vulnerability might allow bypassing the protection, but I'm not sure it's worth the time.
 
