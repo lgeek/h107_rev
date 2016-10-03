@@ -55,8 +55,8 @@ Below is a picture of the H107 PCB top (left side of the picture is mounted at t
 From left to right, we have:
 
 * the two blue LEDs which look like eyes, with the antenna between them
-* A7105 covered by the crystal in cylindrical package - replaced with an SMD crystal in later revisions
-* below the A7105 and slightly to the right: Invensense MPU-3050 3 axis gyroscope
+* Amicom A7105 Transceiver covered by the crystal in cylindrical package - replaced with an SMD crystal in later revisions
+* below the A7105 and slightly to the right: [Invensense MPU-3050](https://www.invensense.com/products/motion-tracking/3-axis/mpu-3050/) 3 axis gyroscope
 * middle, top, the largest package: Nuvoton MINI54ZAN MCU - marked HUBSAN HBS001 in later revisions
 * below and slightly to the right of the MINI54 MCU: mCube MC3220 3 axis accelerometer - later replaced with MC3210 - it was a real PITA to identify
 * below and to the right of the M3220: Torex XC6206 3V LDO regulator
@@ -77,8 +77,8 @@ For comparison, below are an overview of the H107L PCB and a macro showing the I
 Datasheets
 ----------
 
-* [A7105](http://www.avantcom.com.tw/AVANTCOM/TC/DATA/PRODUCT/SOLVE/18_3.pdf)
-* [MPU-3050 datasheet](http://invensense.com/mems/gyro/documents/PS-MPU-3000A.pdf), [MPU-3050 register map](http://invensense.com/mems/gyro/documents/RM-MPU-3000A.pdf)
+* [Amicom A7105](http://d1.amobbs.com/bbs_upload782111/files_37/ourdev_624976V4QBXF.pdf) Transceiver
+* [MPU-3050 datasheet](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-3050A-00-v2-7.pdf), [MPU-3050 register map](https://www.invensense.com/wp-content/uploads/2015/02/MPU-3050-Register-Map.pdf)
 * [MINI54ZAN TRM](http://www.keil.com/dd/docs/datashts/nuvoton/mini51/da00-mini51_52_54c1.pdf)
 * MC3220 doesn't seem to officially exist, but as far as I can tell it's a [MC3210](http://www.mcubemems.com/wp-content/uploads/2014/06/MC3210-Datasheet-APS-048-0005v1.6.pdf) in a package pin-compatible with [Bosch BMA180](http://irtfweb.ifa.hawaii.edu/~tcs3/jumpman/jumppc/1107-BMA180/BMA180-DataSheet-v2.5.pdf)
 * [XC6206](http://www.torex.co.jp/english/products/voltage_regulators/data/XC6206.pdf)
