@@ -76,10 +76,11 @@ For comparison, below are an overview of the H107L PCB and a macro showing the I
 
 
 * [Amicom A7105](http://www.guiott.com/CleaningRobot/G-Control/DataSheets/RicevitoreTelecomando_a7105.pdf) Transceiver
-* [MPU-3050 datasheet](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-3050A-00-v2-7.pdf), [MPU-3050 register map](https://www.invensense.com/wp-content/uploads/2015/02/MPU-3050-Register-Map.pdf)
-* [MINI54ZAN TRM](http://www.keil.com/dd/docs/datashts/nuvoton/mini51/da00-mini51_52_54c1.pdf)
-* MC3220 doesn't seem to officially exist, but as far as I can tell it's a [MC3210](http://www.mcubemems.com/wp-content/uploads/2014/06/MC3210-Datasheet-APS-048-0005v1.6.pdf) in a package pin-compatible with [Bosch BMA180](http://irtfweb.ifa.hawaii.edu/~tcs3/jumpman/jumppc/1107-BMA180/BMA180-DataSheet-v2.5.pdf)
-* [XC6206](http://www.torex.co.jp/english/products/voltage_regulators/data/XC6206.pdf)
+* [MPU-3050](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-3050A-00-v2-7.pdf) Gyroscope, [MPU-3050 register map](https://www.invensense.com/wp-content/uploads/2015/02/MPU-3050-Register-Map.pdf)
+* [MINI54ZAN TRM](http://www.keil.com/dd/docs/datashts/nuvoton/mini51/da00-mini51_52_54c1.pdf) MCU
+* The MC3220 accelerometer doesn't seem to officially exist, but as far as I can tell it's a [MC3210](http://www.mcubemems.com/wp-content/uploads/2014/06/MC3210-Datasheet-APS-048-0005v1.6.pdf) in a package pin-compatible with [Bosch BMA180](http://irtfweb.ifa.hawaii.edu/~tcs3/jumpman/jumppc/1107-BMA180/BMA180-DataSheet-v2.5.pdf)
+* [XC6206](http://www.torex.co.jp/english/products/voltage_regulators/data/XC6206.pdf) voltage regulator
+* [RTC6705](http://sky.geocities.jp/oumeastro/RTC6705-DST-001.pdf) video transmitter
 
 
 ### Debugging connections
